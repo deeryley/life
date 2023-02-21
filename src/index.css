@@ -1,36 +1,60 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
- button, select {
-  background-color:transparent;
-	border-radius:7px;
-	border:2px solid red;
+button,
+select {
+	background-color: transparent;
+	border-radius: 7px;
+	border: 2px solid red;
 	color: red;
-	font-size:17px;
-	font-weight:bold;
-	padding:16px 31px;
-  margin: 10px;
-  cursor: pointer;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 16px 31px;
+	margin: 10px;
+	cursor: pointer;
 }
 
-label{
-  color: red;
-  font-weight: bold;
+label {
+	color: red;
+	font-weight: bold;
 }
 
-.buttons{
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 10px;
+.buttons {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.background {
+	position: fixed;
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.grid {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.cell {
+	width: 10px;
+	height: 10px;
+	outline: 1px solid darkred;
 }
