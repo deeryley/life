@@ -15,8 +15,6 @@ The game takes place on a two-dimensional grid of cells, each of which can be in
 
 The purpose of this project is to create a visual representation of the game using React. With this project, users can interact with the grid by clicking on specific cells to make them alive or dead, change the grid size, and watch the simulation as it progresses according to the game's rules.
 
-The project was created by **[Your Name]**, who wanted to create an interactive and educational tool for learning about cellular automata and the rules of Conway's Game of Life.
-
 ## Features
 
 - Interactive and responsive game grid
